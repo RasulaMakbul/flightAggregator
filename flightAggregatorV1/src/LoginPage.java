@@ -89,7 +89,7 @@ public class LoginPage extends javax.swing.JFrame {
         getContentPane().add(Close, new org.netbeans.lib.awtextra.AbsoluteConstraints(227, 326, -1, -1));
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/login_background.png"))); // NOI18N
-        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, -30, 1400, 830));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
