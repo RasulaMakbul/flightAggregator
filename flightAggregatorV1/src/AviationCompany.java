@@ -26,18 +26,48 @@ public class AviationCompany extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jLabel1 = new javax.swing.JLabel();
+        CreateNewFlight = new javax.swing.JButton();
+        EditFlightInformation = new javax.swing.JButton();
+        CreateOffer = new javax.swing.JButton();
+        EditOffer = new javax.swing.JButton();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jLabel2 = new javax.swing.JLabel();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 48)); // NOI18N
+        jLabel1.setText("Aviation Company Name");
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(123, 11, -1, -1));
+
+        CreateNewFlight.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        CreateNewFlight.setText("Create New Flight");
+        getContentPane().add(CreateNewFlight, new org.netbeans.lib.awtextra.AbsoluteConstraints(123, 136, 189, -1));
+
+        EditFlightInformation.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        EditFlightInformation.setText("Edit Flight Information");
+        getContentPane().add(EditFlightInformation, new org.netbeans.lib.awtextra.AbsoluteConstraints(123, 202, -1, -1));
+
+        CreateOffer.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        CreateOffer.setText("Create Offer");
+        getContentPane().add(CreateOffer, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 136, 189, -1));
+
+        EditOffer.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        EditOffer.setText("Edit Offer");
+        getContentPane().add(EditOffer, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 202, 189, -1));
+
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton1.setText("Auxilary Support");
+        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 271, 189, -1));
+
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jButton2.setText("View Flights");
+        getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(123, 271, 189, -1));
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/aviationCompanyBackground.png"))); // NOI18N
+        getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -78,5 +108,13 @@ public class AviationCompany extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton CreateNewFlight;
+    private javax.swing.JButton CreateOffer;
+    private javax.swing.JButton EditFlightInformation;
+    private javax.swing.JButton EditOffer;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
